@@ -6,8 +6,8 @@ app.get('/', function (req, res) {
   res.send('Hello World!')
 })
 
-app.get('/themba', function(req, res) {
-  res.send('Hello Themba');
+app.get('/buda', function(req, res) {
+  res.send('Hello Buda');
 })
 
 module.exports.handler = serverless(app);
